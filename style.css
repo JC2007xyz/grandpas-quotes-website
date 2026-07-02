@@ -1,0 +1,29 @@
+h1 {
+    color: royalblue;
+    text-align: center;
+
+}
+#mainPagePic {
+    width: 200px;
+    height: 200px;
+}
+.TableC {
+    margin-left: 15%;
+    background-color: dodgerblue;
+    border: solid black 8px;
+    margin-right: 60%;
+
+
+}
+.Baba{
+background-color: aqua;
+}
+.Maman{
+background-color: cadetblue;
+}
+.DistinctTraits{
+background-color: aquamarine;
+}
+.Travels{
+background-color: rgb(186, 207, 246);
+}
