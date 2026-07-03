@@ -27,3 +27,26 @@ background-color: aquamarine;
 .Travels{
 background-color: rgb(186, 207, 246);
 }
+.navbar {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    border-radius: 12px;
+    width:70%;
+    margin: 0 auto;
+
+
+
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 24px;
+
+}
+.navbar a:hover {
+    color: gold
+}
