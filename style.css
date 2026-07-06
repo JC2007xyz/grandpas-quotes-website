@@ -1,24 +1,23 @@
-h1 {
+#Title {
     color: royalblue;
+    text-align: center;
+
+}
+#subtitle {
+    color:darkslateblue;
     text-align: center;
 
 }
 #mainPagePic {
     width: 200px;
     height: 200px;
-}
-.TableC {
-    margin-left: 15%;
-    background-color: dodgerblue;
-    border: solid black 8px;
-    margin-right: 60%;
-
 
 }
+
 .Baba{
 background-color: aqua;
 }
-.Maman{
+.Stories{
 background-color: cadetblue;
 }
 .DistinctTraits{
@@ -49,4 +48,35 @@ background-color: rgb(186, 207, 246);
 }
 .navbar a:hover {
     color: gold
+}
+.story-card{
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0px 8px 18px rgba(0,0,0,0.2);
+}
+.story-card h2{
+    color:rgb(0, 78, 0);
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.quote {
+    font-family:cursive;
+    font-size:28px;
+    color:#61784e;
+    margin-top:30px;
+
+}
+.story-card p{
+    font-size: 24px;
+    line-height: 1.7;
+}
+.story-card hr{
+    border: none;
+    height: 2px;
+    background:#6f8d65;
+    margin-bottom:25px;
 }
