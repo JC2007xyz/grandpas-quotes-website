@@ -54,15 +54,49 @@ body {
     text-align: center;
 }
 .Usa{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.Usa summary {
+    font-size:28px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.usa-map {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.usa-map img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
 }
 /*Need to align more with the center */
 .World{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+.World summary{
+    font-size:28px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.world-map {
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+
+}
+.world-map img{
+    width:80%;
+    max-width: 900px;
+    border-radius: 15px;
 }
 .Stories {
     text-align: center;
@@ -105,6 +139,32 @@ body {
     color:rgb(0, 78, 0);
     font-size: 40px;
     margin-bottom: 10px;
+
+}
+.number{
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+
+    background:#455f2b;
+
+    color:white;
+
+    font-size:42px;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    font-weight:bold;
+}
+.story-header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 
 }
 .quote {
