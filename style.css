@@ -9,26 +9,70 @@
 
 }
 #mainPagePic {
+    display: block;
     width: 200px;
     height: 200px;
+    margin: 0 auto;
+    border-radius: 12px;
+
 
 }
+body {
+    background-color: #eaf4f4;
+}
+.Intro {
+    color:rgb(59, 108, 167);
+    text-align: center;
+    width: 60%;
+    margin: auto;
 
-.Baba{
-background-color: aqua;
+
 }
-.Stories{
-background-color: cadetblue;
+.Intro p {
+    font-size: 20px;
+    color:#61889a;
 }
-.DistinctTraits{
-background-color: aquamarine;
+.Featured {
+    text-align: center;
+    color: blue;
+    font-size:30px;
+}
+.DistinctTraits h1{
+    text-align: center;
+    color:rgb(36, 144, 88);
+
+}
+.DistinctTraits h3 {
+    text-align: center;
+    color:rgb(36, 144, 88);
+
+}
+.Baba {
+    text-align: center;
 }
 .Travels{
-background-color: rgb(186, 207, 246);
+    text-align: center;
 }
+.Usa{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+/*Need to align more with the center */
+.World{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+.Stories {
+    text-align: center;
+    color:rgb(21, 119, 50)
+}
+
+
 .navbar {
     display: flex;
-    background-color: blueviolet;
+    background-color: #d5e5df;
     justify-content: center;
     align-items:center;
     gap: 30px;
@@ -40,14 +84,14 @@ background-color: rgb(186, 207, 246);
 
 }
 .navbar a {
-    color: white;
+    color: rgb(32, 145, 117);
     text-decoration: none;
     transition: color 0.3s;
     font-size: 24px;
 
 }
 .navbar a:hover {
-    color: gold
+    color: #C9A227;
 }
 .story-card{
     width: 70%;
