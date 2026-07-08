@@ -98,6 +98,28 @@ body {
     max-width: 900px;
     border-radius: 15px;
 }
+.marker {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+.marker:hover {
+    transform: scale(1.4);
+}
+.blue { background-color: rgb(29, 43, 149);}
+.red { background-color: #870000;}
+.green { background-color: #07660f;}
+.yellow { background-color: #c7b31b;}
+
+.map-container {
+    position: relative;
+    display:inline-block;
+}
 .Stories {
     text-align: center;
     color:rgb(21, 119, 50)
