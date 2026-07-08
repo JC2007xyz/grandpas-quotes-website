@@ -64,16 +64,7 @@ body {
     cursor: pointer;
     text-align: center;
 }
-.usa-map {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-.usa-map img {
-    width: 80%;
-    max-width: 900px;
-    border-radius: 15px;
-}
+
 /*Need to align more with the center */
 .World{
     padding: 20px;
@@ -88,14 +79,15 @@ body {
     text-align: center;
 }
 .world-map {
-    margin-top: 20px;
-    display:flex;
-    justify-content: center;
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
 
 }
 .world-map img{
-    width:80%;
-    max-width: 900px;
+    display: block;
+    width: 100%;
     border-radius: 15px;
 }
 .marker {
@@ -111,6 +103,9 @@ body {
 .marker:hover {
     transform: scale(1.4);
 }
+.marker:hover .popup {
+    display: block;
+}
 .blue { background-color: rgb(29, 43, 149);}
 .red { background-color: #870000;}
 .green { background-color: #07660f;}
@@ -118,7 +113,25 @@ body {
 
 .map-container {
     position: relative;
-    display:inline-block;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.map-container img{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+.popup {
+    display: none;
+    position: absolute;
+    left: 25px;
+    top: -20px;
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .Stories {
     text-align: center;
