@@ -37,18 +37,30 @@ body {
     color: blue;
     font-size:30px;
 }
+.featured-card:hover img{
+    transform:scale(1.05)
+
+}
+.featured-grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    width:80%;
+    margin: 40px auto;
+}
 .DistinctTraits h1{
     text-align: center;
     color:rgb(36, 144, 88);
 
 }
-.DistinctTraits h3 {
+.DistinctTraits h2 {
     text-align: center;
     color:rgb(36, 144, 88);
 
 }
 .Baba {
     text-align: center;
+    color:#0c597c
 }
 .Travels{
     text-align: center;
