@@ -32,14 +32,33 @@ body {
     font-size: 20px;
     color:#61889a;
 }
+.baba-image {
+    object-position: center 40%;
+}
 .Featured {
     text-align: center;
     color: blue;
     font-size:30px;
 }
-.featured-card:hover img{
+.featured-card {
+    background-color: #489dc4;
+
+}
+.featured-card h2{
+    color:#07660f;
+    transition: color 0.3s;
+}
+.featured-card:hover{
     transform:scale(1.05)
 
+}
+.featured-card:hover h2 {
+    color:#032f77
+}
+.featured-card img{
+    width: 80%;
+    object-fit: cover;
+    height: 300px;
 }
 .featured-grid{
     display: grid;
