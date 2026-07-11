@@ -18,7 +18,7 @@
 
 }
 body {
-    background-color: #eaf4f4;
+    background-color: #c8f4f4;
 }
 .Intro {
     color:rgb(59, 108, 167);
@@ -41,24 +41,35 @@ body {
     font-size:30px;
 }
 .featured-card {
+    display: block;
+    transition: 0.2s ease;
     background-color: #489dc4;
-
-}
-.featured-card h2{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
     color:#07660f;
     transition: color 0.3s;
+
 }
+
 .featured-card:hover{
     transform:scale(1.05)
-
 }
 .featured-card:hover h2 {
     color:#032f77
 }
+.featured-card:hover p {
+    color:#032f77
+}
+.featured-card p {
+    font-size: 20px;
+}
 .featured-card img{
-    width: 80%;
+    width: 100%;
     object-fit: cover;
     height: 300px;
+    border-radius:12px;
 }
 .featured-grid{
     display: grid;
@@ -76,6 +87,27 @@ body {
     text-align: center;
     color:rgb(36, 144, 88);
 
+}
+.Distinct-grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 40px auto;
+}
+.Distinct-card {
+
+    width: 50%;
+    margin: 40px auto;
+    background: rgb(138, 231, 209);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0px 8px 18px rgba(0,0,0,0.2);
+
+}
+.Distinct-card p {
+    font-size: 20px;
+    color:#000000
 }
 .Baba {
     text-align: center;
@@ -189,7 +221,7 @@ body {
 
 .navbar {
     display: flex;
-    background-color: #d5e5df;
+    background-color: #96d5e8;
     justify-content: center;
     align-items:center;
     gap: 30px;
@@ -201,7 +233,7 @@ body {
 
 }
 .navbar a {
-    color: rgb(32, 145, 117);
+    color: rgb(22, 98, 79);
     text-decoration: none;
     transition: color 0.3s;
     font-size: 24px;
