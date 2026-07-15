@@ -97,7 +97,7 @@ body {
     background: #f8f8f8;
     border-radius: 20px;
     padding: 20px;
-    max-width: 300px;
+    max-width: 400px;
 
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     font-size: 24px;
@@ -107,8 +107,13 @@ body {
     font-size: 50px;
     font-family:cursive;
 }
+.huge-quote {
+    display: flex;
+    margin: 0 auto;
+
+}
 .small-line {
-    width: 30%;
+    width: 100%;
     margin-left: 0%;
 }
 
@@ -256,7 +261,7 @@ body {
     padding: 15px;
     border-radius:10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    width: 150px;
+    width: 170px;
     height: auto;
     border-radius: 10px;
     flex-shrink: 0;
