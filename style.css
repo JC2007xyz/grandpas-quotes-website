@@ -1,4 +1,5 @@
-#Title {
+/*index.html and body */
+#title {
     color: royalblue;
     text-align: center;
 
@@ -8,7 +9,27 @@
     text-align: center;
 
 }
-#mainPagePic {
+.credits {
+    font-size: 20px;
+    text-align: right;
+    margin: 40px;
+    color:#3b6ca7;
+}
+.credits a {
+    text-decoration: none;
+    transition: color 0.3s;
+    color:#3b6ca7;
+
+}
+.credits a:hover {
+    color: #C9A227;
+}
+.credits hr{
+    border: none;
+    border-top: 2px dashed;
+
+}
+#main-page-pic {
     display: block;
     width: 200px;
     height: 200px;
@@ -17,10 +38,33 @@
 
 
 }
+.navbar {
+    display: flex;
+    background-color: #96d5e8;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    border-radius: 12px;
+    width:70%;
+    margin: 0 auto;
+
+
+
+}
+.navbar a {
+    color: rgb(22, 98, 79);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 24px;
+
+}
+.navbar a:hover {
+    color: #C9A227;
+}
 body {
     background-color: #c8f4f4;
 }
-.Intro {
+.intro {
     color:rgb(59, 108, 167);
     text-align: center;
     width: 60%;
@@ -28,14 +72,14 @@ body {
 
 
 }
-.Intro p {
+.intro p {
     font-size: 20px;
     color:#61889a;
 }
 .baba-image {
     object-position: center 40%;
 }
-.Featured {
+.featured {
     text-align: center;
     color: blue;
     font-size:30px;
@@ -77,6 +121,14 @@ body {
     grid-template-columns: 1fr 1fr;
     width:80%;
     margin: 40px auto;
+}
+
+
+
+/*babaisms.html */
+.baba {
+    text-align: center;
+    color:#0c597c
 }
 .speech-grid{
     display: grid;
@@ -131,26 +183,29 @@ body {
     border: 10px solid transparent;
     border-top-color: #f8f8f8;
 }
-.DistinctTraits h1{
+
+
+
+/*distinctTraits.html */
+.distinct-traits h1{
     text-align: center;
     color:rgb(36, 144, 88);
 
 }
-.DistinctTraits h2 {
+.distinct-traits h2 {
     text-align: center;
     color:rgb(36, 144, 88);
 
 }
-.Distinct-grid{
+.distinct-grid{
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: 40px auto;
 }
-.Distinct-card {
+.distinct-card {
 
-    width: 50%;
     margin: 40px auto;
     background: rgb(138, 231, 209);
     border-radius:20px;
@@ -158,37 +213,59 @@ body {
     box-shadow:0px 8px 18px rgba(0,0,0,0.2);
 
 }
-.Distinct-card p {
+.distinct-card p {
     font-size: 20px;
     color:#000000
 }
-.Baba {
+
+
+
+
+
+/* travels.html */
+.travels{
     text-align: center;
-    color:#0c597c
+    color:rgb(38, 98, 186);
 }
-.Travels{
-    text-align: center;
-}
-.Usa{
+.usa{
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
 }
-.Usa summary {
+.usa summary {
     font-size:28px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
 }
+.ohio {
+    top: 45.5%;
+    left: 71%;
+}
+.yosemite {
+    top: 45.5%;
+    left: 5.1%;
+}
+.new-orleans {
+    top: 78.5%;
+    left: 60.1%;
+}
+.chicago {
+    top: 39.5%;
+    left: 63.1%;
+}
+.orlando {
+    top: 81%;
+    left: 79.1%;
+}
 
-/*Need to align more with the center */
-.World{
+.world{
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
 
 }
-.World summary{
+.world summary{
     font-size:28px;
     font-weight: bold;
     cursor: pointer;
@@ -205,6 +282,26 @@ body {
     display: block;
     width: 100%;
     border-radius: 15px;
+}
+.athens {
+    top: 34.5%;
+    left: 52%;
+}
+.london {
+    top: 27.5%;
+    left: 45%;
+}
+.toronto {
+    top: 32.5%;
+    left: 26%;
+}
+.hawaii {
+    top: 44.5%;
+    left: 6%;
+}
+.vancouver {
+    top: 29.5%;
+    left: 15%;
 }
 .marker {
     width: 14px;
@@ -266,35 +363,15 @@ body {
     border-radius: 10px;
     flex-shrink: 0;
 }
-.Stories {
+
+
+
+/* stories.html */
+.stories {
     text-align: center;
     color:rgb(21, 119, 50)
 }
 
-
-.navbar {
-    display: flex;
-    background-color: #96d5e8;
-    justify-content: center;
-    align-items:center;
-    gap: 30px;
-    border-radius: 12px;
-    width:70%;
-    margin: 0 auto;
-
-
-
-}
-.navbar a {
-    color: rgb(22, 98, 79);
-    text-decoration: none;
-    transition: color 0.3s;
-    font-size: 24px;
-
-}
-.navbar a:hover {
-    color: #C9A227;
-}
 .story-card{
     width: 70%;
     margin: 40px auto;
