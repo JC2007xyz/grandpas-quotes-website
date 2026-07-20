@@ -142,7 +142,7 @@
                             <p>The grandparents got to visit family, explore the Vasa Museum, and experience the wonders of Stockholm.</p>
                         </div>
                     </div>
-                    <div class ="marker red alaska">
+                    <div class ="marker green alaska">
 
                         <div class="popup">
                             <img src="alaska 2022.jpeg" alt="Grandma and Grandpa posing in front of a beautiful body of water in Alaska.">
@@ -162,7 +162,7 @@
 
                         </div>
                     </div>
-                    <div class ="marker red iran">
+                    <div class ="marker yellow iran">
 
                         <div class="popup">
                             <img src="Iran-pic.jpeg" alt="Grandma, Grandpa, and some more family smiling for a picture in Iran">
@@ -172,7 +172,7 @@
 
                         </div>
                     </div>
-                    <div class ="marker red niagara">
+                    <div class ="marker blue niagara">
 
                         <div class="popup">
                             <img src="Niagara-pic.jpeg" alt="Grandpa in front of Niagara Falls with sunglasses on">
@@ -192,5 +192,34 @@
             <a href="https://www.linkedin.com/in/justin-caldwell-71a74b412/">LinkedIn</a>
             <span><a href="https://github.com/JC2007xyz">Github</a></span>
         </footer>
+
+        <script>
+        const markers = document.querySelectorAll(".marker");
+
+        markers.forEach(marker => {
+            marker.addEventListener("click", (event) => {
+
+                // Prevent this click from reaching the document
+                event.stopPropagation();
+
+                // Close every other popup
+                markers.forEach(m => {
+                    if (m !== marker) {
+                        m.classList.remove("active");
+                    }
+                });
+
+                // Toggle this popup
+                marker.classList.toggle("active");
+            });
+        });
+
+        // Clicking anywhere else closes all popups
+        document.addEventListener("click", () => {
+            markers.forEach(marker => {
+                marker.classList.remove("active");
+            });
+        });
+        </script>
     </body>
 </html>

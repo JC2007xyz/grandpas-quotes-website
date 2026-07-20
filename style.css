@@ -342,6 +342,15 @@ body {
 .marker:hover .popup img{
     display: block;
 }
+.marker.active .popup{
+    display:block;
+}
+.marker.active .popup img{
+    display:block;
+}
+.marker.active {
+    transform: scale(1.4);
+}
 .blue { background-color: rgb(29, 43, 149);}
 .red { background-color: #870000;}
 .green { background-color: #07660f;}
@@ -448,4 +457,221 @@ body {
     height: 2px;
     background:#6f8d65;
     margin-bottom:25px;
+}
+
+
+/* Mobile adjustments */
+
+
+/* Mobile layout */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 95%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+
+    /* Main page */
+    #main-page-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro {
+        width: 90%;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+    .featured {
+        font-size: 24px;
+    }
+
+    /* Cards */
+    .featured-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .featured-card img {
+        height: 200px;
+    }
+
+
+    /* Babaisms */
+    .speech-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .thin-quote,
+    .wide-quote {
+        grid-column: span 1;
+    }
+
+    .speech-bubble {
+        margin: 20px auto;
+        font-size: 18px;
+    }
+
+    .big-quotes {
+        font-size: 35px;
+    }
+
+
+    /* Traits */
+    .distinct-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .distinct-card {
+        padding: 20px;
+    }
+
+
+    /* Travel maps */
+    .map-container,
+    .world-map {
+        width: 95%;
+    }
+
+    .marker {
+        width: 10px;
+        height: 10px;
+    }
+
+    .popup {
+        width: 250px;
+        font-size: 14px;
+
+        left: -125px;
+        top: 20px;
+
+        padding: 10px;
+    }
+
+    .popup img {
+        display: block;
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .oregon .popup,
+    .yosemite .popup,
+    .alaska .popup,
+    .niagara .popup,
+    .carribean .popup {
+        left:20px;
+    }
+    .tennessee .popup,
+    .kentucky .popup,
+    .iran .popup {
+        left:-120px;
+    }
+
+    .travels h1 {
+        font-size:32px;
+    }
+
+    .travels h2 {
+        font-size:18px;
+    }
+
+    .usa summary,
+    .world summary {
+        font-size:20px;
+    }
+
+    .popup h3 {
+        font-size:18px;
+    }
+
+    .popup p {
+        font-size:14px;
+    }
+
+    /* Stories */
+    .story-card {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .story-card h2 {
+        font-size: 28px;
+    }
+
+    .story-card p {
+        font-size: 18px;
+    }
+
+    .quote {
+        font-size: 22px;
+    }
+
+    .number {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+
+
+    .credits {
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .speech-bubble {
+        font-size: 18px;
+    }
+
+    .speech-bubble p {
+        font-size: 16px;
+    }
+
+    .story-card p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+    .popup {
+        width: 200px;
+        left: -100px;
+        top: 20px;
+    }
+
+    .popup img {
+        width: 150px;
+        height:auto;
+    }
+
 }
