@@ -246,17 +246,25 @@ body {
     top: 45.5%;
     left: 5.1%;
 }
-.new-orleans {
-    top: 78.5%;
-    left: 60.1%;
+.texas {
+    top: 71.5%;
+    left: 48.1%;
 }
 .chicago {
     top: 39.5%;
     left: 63.1%;
 }
-.orlando {
-    top: 81%;
-    left: 79.1%;
+.oregon {
+    top: 22%;
+    left: 6.1%;
+}
+.tennessee {
+    top: 56.1%;
+    left: 74.1%;
+}
+.kentucky {
+    top: 53.2%;
+    left: 67.1%;
 }
 
 .world{
@@ -295,13 +303,25 @@ body {
     top: 32.5%;
     left: 26%;
 }
-.hawaii {
-    top: 44.5%;
-    left: 6%;
+.sweden {
+    top: 24.8%;
+    left: 51%;
 }
-.vancouver {
+.alaska {
     top: 29.5%;
-    left: 15%;
+    left: 13%;
+}
+.iran {
+    top: 38.5%;
+    left: 60%;
+}
+.niagara {
+    top: 35%;
+    left: 27%;
+}
+.carribean {
+    top: 42.5%;
+    left: 28%;
 }
 .marker {
     width: 14px;
