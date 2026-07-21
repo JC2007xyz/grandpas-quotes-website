@@ -319,7 +319,7 @@ body {
     top: 35%;
     left: 27%;
 }
-.carribean {
+.caribbean {
     top: 42.5%;
     left: 28%;
 }
@@ -350,6 +350,7 @@ body {
 }
 .marker.active {
     transform: scale(1.4);
+    z-index: 20;
 }
 .blue { background-color: rgb(29, 43, 149);}
 .red { background-color: #870000;}
@@ -574,7 +575,7 @@ body {
     .yosemite .popup,
     .alaska .popup,
     .niagara .popup,
-    .carribean .popup {
+    .caribbean .popup {
         left:20px;
     }
     .tennessee .popup,
