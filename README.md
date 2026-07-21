@@ -40,14 +40,14 @@ It also served as an opportunity to strengthen my web development skills, partic
 
 ## Project Structure
 
-'''text
+```text
 index.html          Home page
 babaisms.html       Grandpa quotes
 distinctTraits.html Personality traits
 stories.html        Funny stories
 travels.html        Interactive travel maps
 style.css           Styling
-'''
+```
 ## Future Improvements
 - Add more stories
 - Add more travels
